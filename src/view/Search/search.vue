@@ -97,6 +97,11 @@ export default {
     onCancel() {
       console.log("cancel");
       // this.DELETE_GOODS();
+      if (this.searchGoodsList.directlyList) {
+        this.DELETE_GOODS();
+      } else {
+        this.$router.back();
+      }
     },
     //关掉一项历史记录时
     close(value) {

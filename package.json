@@ -17,10 +17,13 @@
     "nprogress": "^0.2.0",
     "postcss-loader": "^6.2.1",
     "postcss-px2rem": "^0.3.0",
+    "qrcode": "^1.4.4",
     "qs": "^6.10.3",
     "vant": "^2.12.44",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
+    "vue-waterfall-easy": "^2.4.4",
+    "vue-waterfall2": "^1.10.1",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
